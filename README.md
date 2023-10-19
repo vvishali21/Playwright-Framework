@@ -1,7 +1,7 @@
 # Playwright-Framework
 
 
-INSTALL USING COMMAND AS NPM PACKAGE
+# INSTALL USING COMMAND AS NPM PACKAGE
 
 Step 1 - Create a new folder and open in VS Code 
 
@@ -33,7 +33,7 @@ Step 5 - Check playwright command options
 
 
 
-HOW TO RUN TESTS | COMMANDS
+# HOW TO RUN TESTS | COMMANDS
 
 npx playwright test – runs all tests on all browsers in headless mode
 
@@ -63,7 +63,7 @@ npx playwright test ex.spec.js:21 --debug – debug starting from specific line 
 
 
 
-HOW TO RECORD TEST – TEST GENERATOR
+# HOW TO RECORD TEST – TEST GENERATOR
 
 Playwright comes with a tool - codegen also called Test Generator
 
@@ -100,7 +100,7 @@ Emulate color scheme - npx playwright --color-scheme=dark
 See all options - npx playwright codegen --help
 
 
-TRACE VIEWER
+# TRACE VIEWER
 
 GUI tool that helps viewing the executed test along with snapshots, timeline and other details (traces).
 
